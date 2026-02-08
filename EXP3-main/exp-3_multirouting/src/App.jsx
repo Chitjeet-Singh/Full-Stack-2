@@ -20,7 +20,7 @@ function Profile(){
       <h1>👤 Profile</h1>
       <p>Your professional profile</p>
       <div className="card">
-        <h3>M.Devasis</h3>
+        <h3>Chitjeet Singh</h3>
         <p>Full Stack Developer | Tech Enthusiast</p>
         <p>Building amazing web experiences</p>
       </div>
