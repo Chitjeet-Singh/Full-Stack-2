@@ -7,7 +7,7 @@ function Profile(){
       <marquee loop="5" className="welcome-marquee">
         ✨ Welcome to my Profile ✨
       </marquee>
-      <h1>M.Devasis Singh</h1>
+      <h1>Chitjeet Singh</h1>
       <h2>Full Stack Developer</h2>
       <div className="profile-bio">
         <p>Passionate about creating beautiful and functional web applications</p>
