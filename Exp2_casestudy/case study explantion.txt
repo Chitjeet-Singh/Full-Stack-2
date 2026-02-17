@@ -1,0 +1,14 @@
+The Asteroid Ledger
+
+"The Asteroid Ledger" is a financial utility app that transforms the mundane task of saving money into a planetary defense mission. It uses the metaphor of "deflecting asteroids" to represent completing real-life financial goals.
+
+How it works:
+
+Gamification: Each active savings goal (e.g., "New Laptop") is assigned to a real asteroid based on NASA data.
+Tracking: The asteroid's "distance" represents the remaining amount needed to reach the savings goal.
+Action: As the user adds money to their savings, the app visualizes this as "deflecting" the asteroid away from Earth.
+
+Tech Stack Highlights:
+
+Frontend: React.js (SPA Architecture).
+UI Frameworks: A hybrid implementation using Bootstrap for responsive layout management and Material UI for pre-built, polished components.
