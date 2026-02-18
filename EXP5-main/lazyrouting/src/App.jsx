@@ -4,24 +4,24 @@ import './App.css';
 import Loading from './components/Loading';
 
 // Lazy load the page components
-const Dashboard = lazy(() => import('./pages/Dashboard'));
-const Profile = lazy(() => import('./pages/Profile'));
-const Settings = lazy(() => import('./pages/Settings'));
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Contact = lazy(() => import('./pages/Contact'));
 
 function App(){
   return (
     <Router>
       <nav className="navbar">
-        <Link to="/" className="nav-link">Dashboard</Link>
-        <Link to="/profile" className="nav-link">Profile</Link>
-        <Link to="/settings" className="nav-link">Settings</Link>
+        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/about" className="nav-link">About</Link>
+        <Link to="/contact" className="nav-link">Contact</Link>
       </nav>
       <div className="main-content">
         <Suspense fallback={<Loading />}>
           <Routes>
-            <Route path="/" element={<Dashboard/>}/>
-            <Route path="/profile" element={<Profile/>}/>
-            <Route path="/settings" element={<Settings/>}/>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/contact" element={<Contact/>}/>
           </Routes>
         </Suspense>
       </div>

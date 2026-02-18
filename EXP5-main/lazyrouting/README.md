@@ -36,9 +36,12 @@ We created a React application that implements:
 
 ## Screenshots
 
-### Landing Page
-![Landing Page](./expB_landing_page.png)
+### Home Page
+![Landing Page](./expB_homepage.png)
+
+### About Page
+![Landing Page](./expB_aboutpage.png)
 
 ### Lazy Loading State
-![Lazy Loading](./expB_lazy_loading.png)
+![Lazy Loading](./expB_loading.png)
 
