@@ -4,6 +4,12 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.95) 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }
 
 .spinner {

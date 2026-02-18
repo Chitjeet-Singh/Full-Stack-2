@@ -1,12 +1,44 @@
-# React + Vite
+# Experiment 5B: React Lazy Loading & Code Splitting with Routing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This experiment demonstrates **lazy loading and code splitting** in React applications using dynamic imports and route-based code splitting. The project showcases how to optimize application performance by loading components only when they're needed.
 
-Currently, two official plugins are available:
+## What We Did
+We created a React application that implements:
+- **Multiple Pages** - Dashboard, Profile, and Settings pages
+- **Lazy Loading Component** - A loading indicator displayed while components are being loaded
+- **Route-Based Code Splitting** - Each route loads its component dynamically
+- **Performance Optimization** - Reduces initial bundle size by splitting code
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How We Did It
 
-## Expanding the ESLint configuration
+### Technology Stack
+- **React** - JavaScript library with lazy() and Suspense for code splitting
+- **Vite** - Modern build tool with optimized code splitting support
+- **React Router** - Dynamic routing with lazy component loading
+- **ESLint** - Code quality enforcement
+- **CSS** - Styling for responsive UI and loading states
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Development Process
+1. **Project Setup** - Initialized React with Vite for fast builds and HMR
+2. **Page Structure** - Created separate page components (Dashboard, Profile, Settings)
+3. **Lazy Loading** - Implemented React.lazy() for dynamic imports
+4. **Loading Component** - Built a Loading component using Suspense fallback
+5. **Optimization** - Configured Vite for optimal code splitting
+
+### Key Features
+- Dynamic imports with React.lazy() for code splitting
+- Suspense component with custom Loading fallback
+- Route-based lazy loading for better performance
+- Reduced initial bundle size
+- Faster page load times
+- Hot module replacement during development
+
+## Screenshots
+
+### Landing Page
+![Landing Page](./expB_landing_page.png)
+
+### Lazy Loading State
+![Lazy Loading](./expB_lazy_loading.png)
+

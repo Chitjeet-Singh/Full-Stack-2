@@ -52,12 +52,12 @@ npm run build
 ### Dashboard
 The dashboard showcases a deep blue gradient background with cyan-green accents, featuring a "Quick Stats" card with glassmorphism effects.
 
-![Dashboard](exp-3-dashboard.png)
+![Dashboard](exp3_dashboard.png)
 
 ### Profile Page
 The profile page displays professional information for "M.Devasis - Full Stack Developer | Tech Enthusiast" in an elegant card layout with smooth animations.
 
-![Profile](exp-3-profile.png)
+![Profile](exp3_profile.png)
 
 ## Key Components
 - `Dashboard` - Main dashboard component

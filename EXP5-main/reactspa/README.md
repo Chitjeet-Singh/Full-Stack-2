@@ -1,12 +1,33 @@
-# React + Vite
+# Experiment 5: React Single Page Application (SPA)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This experiment focuses on building a modern **Single Page Application (SPA)** using React and Vite. The project demonstrates the core concepts of component-based architecture, state management, and client-side routing in contemporary web development.
 
-Currently, two official plugins are available:
+## What We Did
+We created a React-based web application with the following components:
+- **App Component** - Main application entry point that handles routing and layout
+- **Dashboard Component** - Displays key information and metrics in an interactive interface
+- Custom styling with CSS for a responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How We Did It
 
-## Expanding the ESLint configuration
+### Technology Stack
+- **React** - JavaScript library for building interactive user interfaces with components
+- **Vite** - Modern build tool providing fast development server and optimized production builds
+- **ESLint** - Code quality and best practices enforcement
+- **CSS** - Styling for responsive and visually appealing design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Development Process
+1. **Project Setup** - Initialized a React project with Vite for fast HMR (Hot Module Replacement)
+2. **Component Structure** - Created modular, reusable React components (App, Dashboard)
+3. **Styling** - Applied CSS for layout and visual design
+4. **Development** - Used Vite's development server for rapid testing and iteration
+
+### Key Features
+- Fast refresh during development with HMR enabled
+- ESLint configuration for code consistency
+- Component-based architecture for maintainability
+- Client-side rendering for dynamic user experience
+
+![Landing Page](expA_dashboard.png)
+![Lazy Loading](expA_lazy_loading.png)
