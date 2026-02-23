@@ -42,6 +42,9 @@ We created a React application that implements:
 ### About Page
 ![Landing Page](./expB_aboutpage.png)
 
+### About Page
+![Landing Page](./expB_contactpage.png)
+
 ### Lazy Loading State
 ![Lazy Loading](./expB_loading.png)
 
